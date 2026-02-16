@@ -38,7 +38,8 @@ has been moved to this repository for archival purposes.
   Covers the core principles, explains how to enable null safety
   across Dart 2.x and 3.x versions, and links to more detailed resources.
 
-- **[Understanding null safety](docs/concepts.md)** -
+- **[Understanding null safety](docs/concepts.md)**
+
   A deep-dive article by Bob Nystrom that explains *how*
   Dart's type system handles `null`, *why* the design decisions were made, and
   how to write idiomatic null-safe Dart code.
@@ -46,18 +47,21 @@ has been moved to this repository for archival purposes.
   type promotion, the `late` modifier, the `!` operator,
   `required` parameters, and changes to core libraries.
 
-- **[Migrate to null safety](docs/migrate.md)** -
+- **[Migrate to null safety](docs/migrate.md)**
+
   A step-by-step guide for migrating an existing Dart package to null safety.
   Includes instructions for using the `dart migrate` tool,
   checking dependency readiness, and publishing migrated packages.
 
-- **[Frequently asked questions](docs/faq.md)** -
+- **[Frequently asked questions](docs/faq.md)**
+
   Practical answers to common questions that arise during migration,
   based on experience migrating Google internal code and Dart team packages.
   Covers topics like `late` vs nullable fields, `required` vs `@required`,
   `built_value` classes, `List` constructors, and compilation to JS.
 
-- **[Unsound null safety](docs/unsound.md)** -
+- **[Unsound null safety](docs/unsound.md)**
+
   Explains mixed-version programs where some libraries are
   null safe and others aren't.
   Covers the differences between sound and unsound null safety,
